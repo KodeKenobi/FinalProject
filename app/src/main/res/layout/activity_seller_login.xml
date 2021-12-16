@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.synerdy.kodekenobi.Seller.SellerLoginActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/sellerlogin"
+        android:id="@+id/seller_login_img"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller Login Form"
+        android:fontFamily="@font/asenine"
+        android:id="@+id/seller_login_title"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_below="@+id/seller_login_img"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+
+        />
+    <EditText
+        android:id="@+id/seller_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller_login_title"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your registered email id"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <EditText
+        android:id="@+id/seller_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller_login_email"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter your password"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/regSeller_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller_login_password"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/burger"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+</RelativeLayout>

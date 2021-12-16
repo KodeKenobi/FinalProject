@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "144048393375",
+    "firebase_url": "https://synerdy-2b158.firebaseio.com",
+    "project_id": "synerdy-2b158",
+    "storage_bucket": "synerdy-2b158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144048393375:android:4d2c28658fad13134066aa",
+        "android_client_info": {
+          "package_name": "com.synerdy.kodekenobi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144048393375-65rrm6acnl6euhtqpn0d8i5388ak2ech.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.synerdy.kodekenobi",
+            "certificate_hash": "7528b88da3e128497d1bfb42285573811c47f29b"
+          }
+        },
+        {
+          "client_id": "144048393375-livplb4ejvh7b3oaorghupcs41t0a4ji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-bRMw3EZqVneJS5Fft-r5GvZ6OgOp6iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144048393375-livplb4ejvh7b3oaorghupcs41t0a4ji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

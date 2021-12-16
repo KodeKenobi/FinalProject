@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.synerdy.kodekenobi.Seller.SelllerProductCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:fontFamily="@font/blamdude"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/liner1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/latests"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/latests" />
+
+
+        <ImageView
+            android:id="@+id/statues"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:src="@drawable/statues" />
+
+        <ImageView
+            android:id="@+id/funkopops"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:src="@drawable/funkopops" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner1_category_layout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/graphicNovels"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/graphicnovels" />
+
+        <ImageView
+            android:id="@+id/cgc"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cgc" />
+
+        <ImageView
+            android:id="@+id/recommendations"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:src="@drawable/upcoming" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner2_category_layout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/dcbooks"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dc" />
+
+        <ImageView
+            android:id="@+id/keys"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/keys" />
+
+
+        <ImageView
+            android:id="@+id/marvelbooks"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/marvel" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner4_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner3_category_layout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/signed"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_signature" />
+
+        <ImageView
+            android:id="@+id/manga"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/manga" />
+
+
+        <ImageView
+            android:id="@+id/indies"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_indiebooks" />
+
+    </LinearLayout>
+
+
+    <!--<LinearLayout
+        android:id="@+id/liner5_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner3_category_layout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/silverage"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/graphicnovels" />
+        <ImageView
+            android:id="@+id/exclusives"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/graphicnovels" />
+        <ImageView
+            android:id="@+id/indies"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/graphicnovels" />
+        <ImageView
+            android:id="@+id/moviesshows"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/graphicnovels" />
+
+
+    </LinearLayout>-->
+</RelativeLayout>

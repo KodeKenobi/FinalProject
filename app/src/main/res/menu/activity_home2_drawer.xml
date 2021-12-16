@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart"
+            android:title="Cart" />
+        <!--<item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search" />-->
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latests"
+            android:icon="@drawable/latests"
+            android:title="Latests" />
+
+        <item
+            android:id="@+id/nav_keys"
+            android:icon="@drawable/ic_keys"
+            android:title="Key Issues" />
+        <item
+            android:icon="@drawable/ic_tv_appliances"
+            android:id="@+id/nav_cgc"
+            android:title="CGC" />
+        <item
+            android:icon="@drawable/ic_statue"
+            android:id="@+id/nav_statues"
+            android:title="Statues" />
+        <item
+            android:icon="@drawable/ic_funko"
+            android:id="@+id/funkopops"
+            android:title="Funko Pops" />
+
+        <item
+            android:icon="@drawable/graphicnovels"
+            android:id="@+id/graphicNovels"
+            android:title="Graphic Novels" />
+
+        <item
+            android:id="@+id/nav_marvel_books"
+            android:icon="@drawable/ic_marvelbooks"
+            android:title="Marvel Books" />
+
+        <item
+            android:id="@+id/nav_dc_books"
+            android:icon="@drawable/ic_dcbooks"
+            android:title="DC Books" />
+
+        <item
+            android:id="@+id/nav_indies"
+            android:icon="@drawable/ic_indiebooks"
+            android:title="Indie Books" />
+        <item
+            android:id="@+id/nav_manga"
+            android:icon="@drawable/ic_manga"
+            android:title="Manga" />
+        <item
+            android:icon="@drawable/ic_signature"
+            android:id="@+id/nav_signed"
+            android:title="Signed Books/Pops" />
+    </group>
+
+
+    <group
+        android:id="@+id/menu_bottom2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_recommendations"
+            android:icon="@drawable/ic_recommendations"
+            android:title="Recommendations" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom3"
+        android:checkableBehavior="single">
+
+        <!--<item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />-->
+
+        <item
+            android:id="@+id/nav_legal"
+            android:icon="@drawable/ic_legal"
+            android:title="Legal" />
+
+        <item
+            android:id="@+id/nav_about_developer"
+            android:icon="@drawable/ic_dev"
+            android:title="About developer" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_call_center"
+            android:title="Contact Us" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_logout"
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>

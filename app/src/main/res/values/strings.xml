@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Synerdy</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_seller_home">SellerHomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--    <string name="menu_home">Home</string>-->
+    <!--    <string name="menu_gallery">Gallery</string>-->
+    <!--    <string name="menu_slideshow">Slideshow</string>-->
+    <!--    <string name="menu_tools">Tools</string>-->
+    <!--    <string name="menu_share">Share</string>-->
+    <!--    <string name="menu_send">Send</string>-->
+
+    <!-- For the community section -->
+
+    <string name="log_in_text">Log in</string>
+    <string name="register_text">Register</string>
+    <string name="username">Enter a username</string>
+    <string name="full_name">Enter your full name</string>
+    <string name="email">Enter your email address</string>
+    <string name="password">Enter your password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="already_registered">Already have an account? Log in</string>
+    <string name="no_account">Don\'t have an account? Sign up</string>
+    <string name="search">Search...</string>
+    <string name="username_hint">username</string>
+    <string name="fullname_hint">Full Name</string>
+    <string name="follow">Follow</string>
+    <string name="post">POST</string>
+    <string name="description">Description</string>
+    <string name="comment">Add a comment...</string>
+    <string name="likes">.. likes</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="photo">Photo</string>
+    <string name="save">Save</string>
+    <string name="chnge_photo">Change Photo</string>
+    <string name="bio">Bio</string>
+    <string name="notification">Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- For the Legal Activity -->
+
+    <string name="term">
+        1. All conditions, warranties and others terms which might otherwise be implied by statute, common law or the law of equity whether relation to the accuracy of any material displayed on our apps to the acessibility of our site or otherwise howsoever.\n
+        2. A Termination clause will inform that users’ accounts on our website and mobile app or users’ access to our website and mobile (if users can’t have an account with you) can be terminated in case of abuses or at our sole discretion.\n
+        3. A Governing Law will informs users which laws govern the agreement. This is the country in which our company is headquartered or the country from which we operate our website and mobile app.\n
+        4. A Link To Other Web Sites clause will informs users that we are not responsible for any third party websites that users link to. This kind of clause generally informs users that they are responsible for reading and agreeing (or disagreeing) with the Terms and Conditions or Privacy Policies of these third parties.\n
+        5. If our mobile app allows users to create content and make that content public to other users, a Content section will informs users that they own the rights to the content they have created. The “Content” clause usually mentions that users must give us (the website or mobile app developer) a license so that you can share this content on our website/mobile app and to make it available to other users. Because the content created by users is public to other users, a DMCA notice clause (or Copyright Infringement ) section is helpful to inform users and copyright authors that, if any content is found to be a copyright infringement, you will respond to any DMCA takedown notices received and you will take down the content.\n
+        6. A Limit What Users Can Do clause can inform users that by agreeing to use your service, they’re also agreeing to not do certain things. This can be part of a very long and thorough list in your Terms and Conditions agreements so as to encompass the most amount of negative uses.
+        7. Synerdy allows you to post content including photos, comments, links and other material on the platform. Anything that you post or otherwise make available on Synerdy is referred to as "User Content". You retain all rights in, and are solely responsible for, the User Content you post on Synerdy.
+        8. We are not responsible for any shipping costs. Whatever is sold on the platform using your Business Account privileges. Only products that are being advertised or that have not sold should not be removed.
+        9.
+    </string>
+
+    <string name="business_account">
+        1. To access and use the Business Account, the user, comic book creator, comic book company or any business must register for a Synerdy Business Account ("Business Account") by providing your full legal name, current address, phone number, a valid email address, and other information indicated as required. Synerdy might reject your application for a "Business Account" or cancel an existing account, for any reason, in our sole discretion.
+        2. A breach or violation of any term in the Terms And Conditions as determined in the sole discretion of Synerdy may result in an immediate termination of your Services.
+        3. We are not responsible for any shipping costs. Whatever is sold on the platform, if not Cash on Delivery should come with a standard shipping fee as part of the price when Buyer checks out.
+        4. All the products that sell and are purchased will be removed from the platform using your Business Account privileges. Only products that are being advertised or that have not sold should not removed.
+        5. As you can see, these are relatively detailed provisions, because it is important for users to understand their contractual rights and responsibilities if they make payments through an app.
+        6. There is no credit cards information held on this platform. Do not share your banking details with anyone if you are a buyer. If you are a seller. Make sure that you have added your contact details on your description before you post the products that you are selling. That creates a safer environment as whoever is interested in whatever you are selling can contact you directly.
+    </string>
+
+
+    <string name="trademark_ifo">
+        You grant Synerdy and our users a non-exclusive, royalty-free, transferable, sublicensable, worldwide license to use , store, display, reproduce, save, modify, create derivative works, perform and distribute your User Content on Synerdy solely for the purposes of operating, developing, providing and using Synerdy. Nothing in these Terms restricts other legal rights Synerdy may have to User Content, for example, under other licenses. We reserve the right to remove or modify User Content, or change the way it’s used in Synerdy, for any reason. This includes User Content that we believe violates these Terms, our Community Guidelines or any other policies.
+    </string>
+
+
+    <!-- For the About Us Page -->
+
+    <string name="about_text">Contact Us</string>
+    <string name="description_about">As much as we are a community here, you can always feel free to contact us personally, drop some feedback, request features or find out more about how to open a "Business Account".
+    </string>
+    <string name="whatapp_handle">Whatapp Handle</string>
+    <string name="instagram_handle">Instagram Handle</string>
+    <string name="gmail">Gmail</string>
+    <string name="facebook">Facebook</string>
+    <string name="gmailsend">TODO</string>
+
+
+</resources>

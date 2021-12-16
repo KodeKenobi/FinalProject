@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Activities.LegalActivity">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/ram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:paddingStart="8dp"
+                android:text="INTRODUCTION"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="This page (together with the documents referred to on it) tells you the terms on which you may make use of our mobile application (our app), and any other services which are available on our app. Please read these Terms of Use carefully before you start to use our app. By using our app, you indicate that you accept these Terms of Use and that you agree to abide by them. If you do not agree to these Terms of Use, please refrain from using our app."
+                android:layout_below="@+id/ram"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView10"
+                android:layout_marginTop="11dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="ACCESSING OUR APP"
+                android:textColor="@color/colorAccent"
+                android:textSize="23dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Access to our app is permitted on a permanent basis, and we reserve the right to withdraw or amend the service that we provide on our app without notice (see below). We will be not be liable if for any reason our app is unavailable at any time or any period. You are responsible for making all arrangements necessary for you to have access to our contact and app. You are also responsible for ensuring that all persons who access our site and app through your internet connection are aware of these terms, and that they comply with them. We can suspend or delete abusive accounts if they violate our Terms and Conditions. This protects other users and helps us keep our app a safe, trustworthy platform - particularly since users can post their own content. "
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView15"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView16"
+                android:layout_marginTop="11dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="TERMS AND CONDITIONS"
+                android:textColor="@color/colorAccent"
+                android:textSize="23dp" />
+
+
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/term"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView17"
+                android:gravity="center"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView18"
+                android:layout_marginTop="11dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="SIGNING UP FOR BUSINESS ACCOUNT"
+                android:textColor="@color/colorAccent"
+                android:textSize="23dp" />
+
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/business_account"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView19"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView20"
+                android:layout_marginTop="11dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:text="TRADEMARK INFORMATION"
+                android:textColor="@color/colorAccent"
+                android:textSize="23dp" />
+
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/business_account"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView21"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

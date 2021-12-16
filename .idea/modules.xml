@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Synerdy.iml" filepath="$PROJECT_DIR$/.idea/modules/Synerdy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Synerdy.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Synerdy.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/Synerdy.commons.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/Synerdy.commons.iml" />
+    </modules>
+  </component>
+</project>
